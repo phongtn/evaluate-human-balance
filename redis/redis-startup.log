@@ -1,0 +1,64 @@
+43:C 17 Apr 2023 08:17:55.051 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+43:C 17 Apr 2023 08:17:55.051 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=43, just started
+43:C 17 Apr 2023 08:17:55.051 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 43
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+43:M 17 Apr 2023 08:17:55.057 # Server initialized
+43:M 17 Apr 2023 08:17:55.057 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+43:M 17 Apr 2023 08:17:55.057 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+43:M 17 Apr 2023 08:17:55.058 * Ready to accept connections
+43:M 17 Apr 2023 08:18:15.852 * Replica 127.0.0.1:51252 asks for synchronization
+43:M 17 Apr 2023 08:18:15.852 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'c049d5f62286922a2de9c76f8b1144b3b5131851', my replication IDs are '078925cd1f7c9e5754cf1bd0d24e198544e492ad' and '0000000000000000000000000000000000000000')
+43:M 17 Apr 2023 08:18:15.852 * Replication backlog created, my new replication IDs are 'e0dc08845f67da380ed3389e38dc34a6d0c4b6a1' and '0000000000000000000000000000000000000000'
+43:M 17 Apr 2023 08:18:15.853 * Starting BGSAVE for SYNC with target: disk
+43:M 17 Apr 2023 08:18:15.853 * Background saving started by pid 870
+870:C 17 Apr 2023 08:18:15.870 * DB saved on disk
+870:C 17 Apr 2023 08:18:15.870 * RDB: 0 MB of memory used by copy-on-write
+43:M 17 Apr 2023 08:18:15.919 * Background saving terminated with success
+43:M 17 Apr 2023 08:18:15.919 * Synchronization with replica 127.0.0.1:51252 succeeded
+43:M 17 Apr 2023 08:25:23.286 * 10 changes in 300 seconds. Saving...
+43:M 17 Apr 2023 08:25:23.286 * Background saving started by pid 1761
+1761:C 17 Apr 2023 08:25:23.296 * DB saved on disk
+1761:C 17 Apr 2023 08:25:23.296 * RDB: 0 MB of memory used by copy-on-write
+43:M 17 Apr 2023 08:25:23.387 * Background saving terminated with success
+43:M 17 Apr 2023 08:30:24.020 * 10 changes in 300 seconds. Saving...
+43:M 17 Apr 2023 08:30:24.021 * Background saving started by pid 9687
+9687:C 17 Apr 2023 08:30:24.036 * DB saved on disk
+9687:C 17 Apr 2023 08:30:24.037 * RDB: 0 MB of memory used by copy-on-write
+43:M 17 Apr 2023 08:30:24.122 * Background saving terminated with success
+43:M 17 Apr 2023 08:35:25.003 * 10 changes in 300 seconds. Saving...
+43:M 17 Apr 2023 08:35:25.004 * Background saving started by pid 11050
+11050:C 17 Apr 2023 08:35:25.018 * DB saved on disk
+11050:C 17 Apr 2023 08:35:25.018 * RDB: 0 MB of memory used by copy-on-write
+43:M 17 Apr 2023 08:35:25.104 * Background saving terminated with success
+43:M 17 Apr 2023 08:40:26.087 * 10 changes in 300 seconds. Saving...
+43:M 17 Apr 2023 08:40:26.087 * Background saving started by pid 17566
+17566:C 17 Apr 2023 08:40:26.131 * DB saved on disk
+17566:C 17 Apr 2023 08:40:26.131 * RDB: 0 MB of memory used by copy-on-write
+43:M 17 Apr 2023 08:40:26.187 * Background saving terminated with success
+43:M 17 Apr 2023 08:45:27.005 * 10 changes in 300 seconds. Saving...
+43:M 17 Apr 2023 08:45:27.005 * Background saving started by pid 29964
+29964:C 17 Apr 2023 08:45:27.044 * DB saved on disk
+29964:C 17 Apr 2023 08:45:27.045 * RDB: 0 MB of memory used by copy-on-write
+43:M 17 Apr 2023 08:45:27.106 * Background saving terminated with success
+43:M 17 Apr 2023 08:50:28.048 * 10 changes in 300 seconds. Saving...
+43:M 17 Apr 2023 08:50:28.048 * Background saving started by pid 8675
+8675:C 17 Apr 2023 08:50:28.095 * DB saved on disk
+8675:C 17 Apr 2023 08:50:28.096 * RDB: 0 MB of memory used by copy-on-write
+43:M 17 Apr 2023 08:50:28.148 * Background saving terminated with success
